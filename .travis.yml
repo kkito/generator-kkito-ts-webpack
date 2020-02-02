@@ -3,3 +3,12 @@ node_js:
 - node
 script:
 - npm run test
+deploy:
+  provider: npm
+  email: kkitokkito@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: Jr0gdCJzlfP5eN+TgCNX5c1rOokLutAm5y/nWG7nNP8d+MFPjeG3VGZDl3evDywG8GF2i3IeeuRx02Y9y0wWSZfSLjTTETY0bU/x17r/aNnvmJLXgAnYCQy15PMfOYbwsSpRWizn3sGAd41m26Z9+kkvILXdn1zoA+SgSqLV7ZAcRnM5KpAnbjVCJaqhpmb4IQ+CycRtEuxbrDempLQP5vzCj2mwitLat+bbXm5HBOr5C1yXUE+BXwFwvPs2PySR3AKHD8APfDu6dpfq6o5d+R2qvZh2mT/IvUW7wl5p5OPfzsRqyfF3Xmg/XxxheB8VXSNseiQ9Ls6lWnmvuaP3iPN0z8KlbSmpxfUIxaX0CRk0NzmgoH+w1b/ea/ERJ1jwctRcnnwtuuIhtpOhsHDEdbydaqIETitclN7DF3xVL/39ekgzGQrSIbiA/DDm/6L3AmaFZnsFCP4447XiVehZTu3C6iljXiieexu6S2xk10P57Y/Bd0dqdIx1dEbJ/puQLspjHt9fjVuW40RfSvoFZKvd/zQitv0THMibhe5w8HUAP/8VWYYd0bQc5uCuDnlhiEicX3oawfHWwxlA1DxT9xazDFI5FBukn90F5RDPi+hWtUXiY2rHr7p89s8pv01jgP3BZMBjmiA2RoxohSYy/2dhz+RQrTfKk++oaXLSG58=
+  on:
+    tags: true
+    repo: kkito/generator-kkito-ts-webpack
