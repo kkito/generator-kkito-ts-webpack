@@ -1,6 +1,6 @@
 {
   "name": "generator-kkito-ts-webapck",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "yeoman typescript generator ts webpack",
   "homepage": "https://github.com/kkito/generator-kkito-ts-webpack",
   "author": {
