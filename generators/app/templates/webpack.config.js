@@ -3,6 +3,7 @@ const webpack = require("webpack");
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: './src/index.ts',
   module: {
     rules: [
@@ -21,9 +22,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
-    new CopyPlugin([
-      { from: 'src/index.html', to: './' }
-    ]) , 
+    new CopyPlugin({
+      patterns: [ { from: 'src/index.html', to: './' } ]
+    }) ,
 
     new webpack.DefinePlugin({
     })
