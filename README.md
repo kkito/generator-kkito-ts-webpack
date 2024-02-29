@@ -26,6 +26,11 @@ yo kkito-ts-webpack
 ## Dev 
  * npm install -g . # for build local
 
+## publish to npmjs
+
+`npm login`
+`npm publish`
+
 ## License
 
 Apache-2.0 © [kkito](kkito.cn)
