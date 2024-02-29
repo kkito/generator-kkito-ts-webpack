@@ -4,5 +4,5 @@ export class TestIndex {
   }
 }
 
-// const ti = new TestIndex()
-// alert(`hello world ${ti.getName()}`)
+const ti = new TestIndex()
+alert(`hello ${ti.getName()}`)
